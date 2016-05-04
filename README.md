@@ -1,4 +1,4 @@
-# lastpost
+# lastpost [![Build Status](https://travis-ci.org/justincampbell/lastpost.svg?branch=master)](https://travis-ci.org/justincampbell/lastpost)
 
 > Fetches the latest item from an RSS feed, and attempts to display it nicely.
 
