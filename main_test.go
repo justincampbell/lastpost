@@ -30,7 +30,8 @@ func Test_formatContent(t *testing.T) {
 		require.NoError(t, err)
 		expected := string(b)
 
-		feed.FetchBytes("http://example.com", xml, charsetReader)
+		err = feed.FetchBytes("http://example.com", xml, charsetReader)
+		require.NoError(t, err)
 		require.NotEmpty(t, items)
 
 		item := items[0]
