@@ -19,7 +19,6 @@ release: dependencies clean
 	gox \
 	  -osarch="$(GOX_OSARCH)" \
 	  -output="release/$(NAME)_{{.OS}}_{{.Arch}}" \
-	  -osarch="darwin/amd64" \
 	  ./...
 	cd release/; for f in *; do mv -v $$f $(NAME); tar -zcf $$f.tar.gz $(NAME); rm $(NAME); done
 
