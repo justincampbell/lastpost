@@ -14,12 +14,15 @@ import (
 	"github.com/justincampbell/timeago"
 )
 
+const usage = `lastpost v1.0.0 - github.com/justincampbell/lastpost
+usage: lastpost URL`
+
 func main() {
 	flag.Parse()
 	url := flag.Arg(0)
 
 	if url == "" {
-		fmt.Println("usage: lastpost URL")
+		fmt.Println(usage)
 		os.Exit(1)
 	}
 
