@@ -1,9 +1,8 @@
 NAME := lastpost
 
-all: test lint
+GOX_OSARCH := darwin/386 darwin/amd64 linux/amd64 windows/386 windows/amd64
 
-build: dependencies
-	go build -o bin/$(NAME)
+default: test lint
 
 test: dependencies
 	go test ./...
@@ -15,4 +14,16 @@ lint: dependencies
 dependencies:
 	go get -t
 
-.PHONY: build dependencies lint test
+release: dependencies clean
+	go get github.com/mitchellh/gox
+	gox \
+	  -osarch="$(GOX_OSARCH)" \
+	  -output="release/$(NAME)_{{.OS}}_{{.Arch}}" \
+	  -osarch="darwin/amd64" \
+	  ./...
+	cd release/; for f in *; do mv -v $$f $(NAME); tar -zcf $$f.tar.gz $(NAME); rm $(NAME); done
+
+clean:
+	rm -rf release/
+
+.PHONY: default clean dependencies lint release test
