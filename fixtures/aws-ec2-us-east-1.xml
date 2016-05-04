@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Amazon Elastic Compute Cloud (N. Virginia) Service Status</title>
+    <link>http://status.aws.amazon.com/</link>
+    <link rel="alternate" href="http://status.aws.amazon.com/rss/all.rss" type="application/rss+xml" title="Amazon Web Services Status Feed"/>
+    <title type="text">Current service status feed for Amazon Elastic Compute Cloud (N. Virginia).</title>
+    <language>en-us</language>
+    <pubDate>Wed,  4 May 2016 00:52:09 PDT</pubDate>
+    <updated>Wed,  4 May 2016 00:52:09 PDT</updated>
+    <generator>AWS Service Health Dashboard RSS Generator</generator>
+    <ttl>5</ttl>
+
+	 
+	 <item>
+	  <title type="text">Service is operating normally: [RESOLVED] Network Connectivity </title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Thu, 21 Apr 2016 14:41:59 PDT</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1461274919</guid>
+	  <description>Between 1:59 PM and 2:01 PM PDT, some EC2 instances experienced network connectivity issues between two Availability Zones in the US-EAST-1 Region. This issue has been resolved and the service is operating normally.</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Informational message: Network Connectivity</title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Thu, 21 Apr 2016 14:22:04 PDT</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1461273724</guid>
+	  <description>We are investigating possible network connectivity issues in the US-EAST-1 Region.</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Service is operating normally: [RESOLVED] RunInstances Error Rate</title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 30 Mar 2016 22:16:00 PDT</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1459401360</guid>
+	  <description>Between 4:20 PM and 5:10 PM PDT, we experienced elevated RunInstance error rates in a single Availability Zone in US-East-1. However when launches in the impacted Availability Zone recovered, there was a large amount of work in the system that impacted some of our back end systems and caused elevated error rates in other Availability Zones in the region as well. We placed throttles on new instance launches, and once the work cleared from the system we were able to remove the throttles and the system fully recovered at 9:45 PM PDT. The service is now operating normally.</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Service is operating normally: [RESOLVED] RunInstances Error Rate</title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 30 Mar 2016 21:24:00 PDT</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1459398240</guid>
+	  <description>We can confirm an improvement in the elevated API error rates in the US-EAST-1 Region. Existing running instances are not impacted. We continue to work towards full recovery.</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Service is operating normally: [RESOLVED] RunInstances Error Rate</title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 30 Mar 2016 19:58:00 PDT</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1459393080</guid>
+	  <description>Due to the API throttles in place, customers may be experiencing elevated API error rates across multiple availability zones in the US-EAST-1 Region.</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Service is operating normally: [RESOLVED] RunInstances Error Rate</title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 30 Mar 2016 19:24:00 PDT</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1459391040</guid>
+	  <description>We continue to see increased API error rates for the RunInstances API in the US-EAST-1 Region. Running Instances are not impacted.</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Service is operating normally: [RESOLVED] RunInstances Error Rate</title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 30 Mar 2016 18:15:00 PDT</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1459386900</guid>
+	  <description>We are continuing to work towards full resolution of this issue. We are throttling some API requests as we continue to work on recovery.</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Service is operating normally: [RESOLVED] RunInstances Error Rate</title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 30 Mar 2016 17:54:00 PDT</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1459385640</guid>
+	  <description>We have identified the root cause of the increased API error rates for the RunInstances API. We are seeing most RunInstances requests and instance launches succeed, however we are working to fully resolve this issue. Running instances are not impacted.</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Service is operating normally: [RESOLVED] RunInstances Error Rate</title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 30 Mar 2016 16:47:00 PDT</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1459381620</guid>
+	  <description>We are continuing to investigate increased API error rates for the RunInstances API in a single Availability Zone in the US-EAST-1 Region. Running instances are not impacted.</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Service is operating normally: [RESOLVED] RunInstances Error Rate</title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 30 Mar 2016 16:29:00 PDT</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1459380540</guid>
+	  <description>We are investigating increased API error rates for the RunInstances API in the US-EAST-1 Region.</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Service is operating normally: [RESOLVED] Instance Connectivity</title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Thu, 10 Mar 2016 02:02:41 PST</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1457604161</guid>
+	  <description>Between March 9 11:29 PM and March 10 1:46 AM PST we experienced periods of connectivity issues and degraded EBS volume performance for a small number of instances in a single Availability Zone in the US-EAST-1 Region. The issue has been resolved and the service is operating normally.</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Informational message: Instance Connectivity</title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Thu, 10 Mar 2016 01:26:21 PST</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1457601981</guid>
+	  <description>We continue to investigate connectivity issues and degraded EBS volume performance for a small number of instances in a single Availability Zone in the US-EAST-1 Region. We have seen recovery for the majority of the affected instances and continue to work towards full recovery.</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Informational message: Instance Connectivity</title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Thu, 10 Mar 2016 00:25:06 PST</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1457598306</guid>
+	  <description>We are investigating connectivity issues and degraded EBS volume performance for a small number of instances in a single Availability Zone in the US-EAST-1 Region.</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Service is operating normally: [RESOLVED] Increased Launch Error Rates / [RESOLVED] Increased API Error Rates</title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Wed, 20 Jan 2016 05:08:46 PST</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1453295326</guid>
+	  <description>&lt;h4&gt;[RESOLVED] Increased Launch Error Rates&lt;/h4&gt;
+  &lt;div&gt;&lt;span class="yellowfg"&gt;1:37 PM PST&lt;/span&gt; We are investigating increased error rates for new instance launches in a single Availability Zone in the US-EAST-1 region. Running instances are not affected.&lt;/div&gt;
+  &lt;div&gt;&lt;span class="yellowfg"&gt;1:54 PM PST&lt;/span&gt; Between 12:46 PM and 1:46 PM PST we experienced increased error rates for EC2 instance launches in a single Availability Zone in the US-EAST-1 Region. Existing instances were unaffected. The issue has been resolved and the service is operating normally. &lt;/div&gt;
+  &lt;br&gt;
+  &lt;h4&gt;[RESOLVED] Increased API Error Rates&lt;/h4&gt;
+  &lt;div&gt;&lt;span class="yellowfg"&gt;5:30 AM PST&lt;/span&gt; We are investigating increased error rates for EBS APIs and elevated errors for new EBS-backed instance launches in the US-EAST-1 Region.&lt;/div&gt;
+  &lt;div&gt;&lt;span class="yellowfg"&gt;6:02 AM PST&lt;/span&gt; We can confirm an improvement in the increased error rates for EBS APIs and elevated errors for new EBS backed instance launches in the US-EAST-1 Region. We continue to work towards full recovery.&lt;/div&gt;
+  &lt;div&gt;&lt;span class="yellowfg"&gt;6:21 AM PST&lt;/span&gt; Between 4:34 AM and 5:57 AM PST we experienced increased error rates for EBS APIs and elevated errors for new EBS backed instance launches in the US-EAST-1 Region. Existing instances were unaffected. The issue has been resolved and the service is operating normally. &lt;/div&gt;</description>
+	 </item>
+         
+	 <item>
+	  <title type="text">Service is operating normally: Instance Connectivity </title>
+	  <link>http://status.aws.amazon.com/</link>
+	  <pubDate>Thu, 14 Jan 2016 19:11:10 PST</pubDate>
+	  <guid>http://status.aws.amazon.com/#ec2-us-east-1_1452827470</guid>
+	  <description>Between 2:26 PM and 7:10 PM PST we experienced connectivity issues when using public IP addresses for some instances within the EC2 Classic network in the US-EAST-1 Region. Connectivity between instances using the private IP address was not affected. The issue has been resolved and the service is operating normally.</description>
+	 </item>
+        
+  </channel>
+</rss>

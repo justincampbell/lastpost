@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rss version='2.0' xmlns:dc='http://purl.org/dc/elements/1.1/'> 
+     <channel>
+<title>Weather at Philadelphia, Philadelphia International Airport, PA - via NOAA's National Weather Service</title>
+<link>http://www.weather.gov/xml/current_obs/</link>
+     <lastBuildDate>Wed, 04 May 2016 08:54:00 -0400</lastBuildDate>
+     <ttl>60</ttl>
+     <description>Weather conditions from NOAA's National Weather Service. </description>
+     <language>en-us</language>
+     <managingEditor>robert.bunge@noaa.gov</managingEditor>
+     <webMaster>w-nws.webmaster@noaa.gov</webMaster>
+     <image>
+     <url>http://www.weather.gov/images/xml_logo.gif</url>
+     <title>NOAA - National Weather Service</title>
+     <link>http://www.weather.gov/xml/current_obs/</link>
+     </image> 
+    
+     <item>
+<title>
+Overcast and 52 F at Philadelphia, Philadelphia International Airport, PA</title>
+<link>http://weather.noaa.gov/weather/current/KPHL.html</link> 
+<description>
+<![CDATA[<img src="http://forecast.weather.gov/images/wtf/small/ovc.png" class="noaaWeatherIcon"  width="55" height="58" alt="Overcast" style="float:left;" /><br />]]>
+Winds are East at 10.4 MPH (9 KT). The pressure is 1007.9 mb and the humidity is 83%.
+The wind chill is 48.
+ Last Updated on May 4 2016, 8:54 am EDT.  
+      </description>
+      <guid isPermaLink="false">Wed, 04 May 2016 08:54:00 -0400</guid>
+      </item>
+      </channel>
+      </rss>

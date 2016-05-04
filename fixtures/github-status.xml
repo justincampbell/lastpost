@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>GitHub Service Status</title>
+    <link>https://status.github.com</link>
+    <item>
+      <title>[good] Everything operating normally.</title>
+      <link>https://status.github.com</link>
+      <description>Everything operating normally.</description>
+      <pubDate>Fri, 29 Apr 2016 03:39:48 -0000</pubDate>
+      <guid>https://status.github.com/#1764</guid>
+    </item>
+    <item>
+      <title>[minor] A small percentage of git repositories are currently offline.</title>
+      <link>https://status.github.com</link>
+      <description>A small percentage of git repositories are currently offline.</description>
+      <pubDate>Fri, 29 Apr 2016 03:23:51 -0000</pubDate>
+      <guid>https://status.github.com/#1763</guid>
+    </item>
+    <item>
+      <title>[minor] Minor service outage.</title>
+      <link>https://status.github.com</link>
+      <description>Minor service outage.</description>
+      <pubDate>Fri, 29 Apr 2016 03:23:11 -0000</pubDate>
+      <guid>https://status.github.com/#1762</guid>
+    </item>
+  </channel>
+</rss>

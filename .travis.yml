@@ -1,0 +1,32 @@
+language: go
+
+sudo: false
+
+go:
+  - 1.6
+  - tip
+
+matrix:
+  allow_failures:
+    - go: tip
+
+install:
+  - go get -t
+
+before_deploy:
+  - go get github.com/mitchellh/gox
+  - mkdir -p release/
+  - cd release/
+  - gox -os "darwin linux windows" ../...
+  - for f in `ls`; do mv $f lastpost; tar -zcvf $f.tar.gz lastpost; rm lastpost; done
+
+deploy:
+  provider: releases
+  api_key:
+    secure: OeVkbmQgmGg/5253qnF5v51uJC3ehgopqe5YRzfju3VeHPyHMIJ+cgS5By8m4VmsTbKk2rvK29nAowbS9ew3GGrroG9YOQ9N4+rgPZh4NmJJupKXkN5SO0Tbt841rk+A3dg+Z1JaM/h7cgOzpwUilvSOErioA07FS2zYH5atCvSudPp0849+9eM6JC9EhilHJ6iLb5I4YWRjV38H9nMM2fH9ewm9vUmVLhoudsrCnP0Ont2skVpa/S/O6lgGM2SbIYhNjAWDCcS7eENS8FgzmLDsDVK4NeCWu9chPyPpj6WpzhpwNpybE2sj1w2Up+Xu5yQKZqdxQxOJW3E9/L9eRwjLzJYtysKZgR9TfVitcyvQM5lF6xc/OIkoXacLtn1sknU6L6sanLgC6sPIeDPuqzRbGxbdeNpcTLZrbGFgvAQDxaIkG6lkO1MHye5f/bvymGL3z1vJFfcnby61jIsPSsLfE/QfeGeohf3/L1qq5dR2/ZkSzl/CyrjPV+mReKaoamKvr8OXN6V77N3CIWCXckhfwJnd4gv7bezR9bqoWsMqqK1V6roLO2aE2c6Ft1VRC0XDn39LZ6TU2ErZ8lIZNuXnKDjM9Zl+gLsambCn8MkMgfxHQSi9caMDn+KBRV/1Dm+zhm80vhJwm+othlwq51vqlegWdjBUl9IobKudm5I=
+  file: lastpost*
+  file_glob: true
+  skip_cleanup: true
+  on:
+    repo: justincampbell/lastpost
+    tags: true

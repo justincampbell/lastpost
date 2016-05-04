@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:status.heroku.com,2005:/feed</id>
+  <link rel="alternate" type="text/html" href="https://status.heroku.com"/>
+  <link rel="self" type="application/atom+xml" href="https://status.heroku.com/feed"/>
+  <title>Heroku Status</title>
+  <updated>2016-05-03T17:56:18Z</updated>
+  <author>
+    <name>Heroku</name>
+    <email>support@heroku.com</email>
+    <uri>http://support.heroku.com</uri>
+  </author>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/887</id>
+    <published>2016-05-03T17:41:58Z</published>
+    <updated>2016-05-03T17:56:18Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/887"/>
+    <title>Resolved: Emergency EU platform maintenance scheduled on May 3 at 17:45 UTC</title>
+    <content type="html">&lt;p&gt;This maintenance is complete.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/886</id>
+    <published>2016-05-02T18:45:10Z</published>
+    <updated>2016-05-02T19:03:33Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/886"/>
+    <title>Resolved: Issues logging into the Heroku Dashboard</title>
+    <content type="html">&lt;p&gt;The issue is resolved&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/885</id>
+    <published>2016-04-26T22:39:00Z</published>
+    <updated>2016-04-26T23:06:03Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/885"/>
+    <title>Resolved: Issues with API availability</title>
+    <content type="html">&lt;p&gt;This issue is resolved.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/883</id>
+    <published>2016-04-21T20:55:00Z</published>
+    <updated>2016-04-22T18:23:56Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/883"/>
+    <title>Resolved: Network connectivity issues</title>
+    <content type="html">&lt;p&gt;Our upstream provider resolved the networking issues causing intermittent failures and connectivity has returned to normal. It's possible that some applications got into a bad state when losing connectivity to some services, so a restart may have been required to get them working again.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/882</id>
+    <published>2016-04-18T01:25:36Z</published>
+    <updated>2016-04-27T21:16:23Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/882"/>
+    <title>Resolved: Issues with US region availability and application builds</title>
+    <content type="html">&lt;p&gt;Between April 18th 02:07 UTC and 02:21 UTC a database failed which caused some applications to receive H99 errors and builds to time out. We apologize for the issues this incident caused. The root cause of this issue was a database failure.Even though the automated failover worked as expected, it did take longer than intended.&lt;/p&gt;
+
+&lt;p&gt;We are in the process of modifying our operational procedures for this system to enable a more timely failover response. This will prevent your application from receiving H99 errors during this type of database failure.&lt;/p&gt;
+
+&lt;p&gt;A separate issue in how we detect when builds fail was identified as a result of the initial database failure. During the database failure builds were taking one hour to fail as they were waiting for a timeout condition. We are completing a change to our build system to better detect this failure and mark builds as failed earlier in the build lifecycle.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/881</id>
+    <published>2016-04-14T14:39:39Z</published>
+    <updated>2016-04-14T17:25:44Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/881"/>
+    <title>Resolved: Issues with application runtime metrics</title>
+    <content type="html">&lt;p&gt;This issue is resolved.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/880</id>
+    <published>2016-04-12T01:24:00Z</published>
+    <updated>2016-04-12T03:13:59Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/880"/>
+    <title>Resolved: Availability of events on Application Metrics</title>
+    <content type="html">&lt;p&gt;The issue has been resolved.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/879</id>
+    <published>2016-03-30T23:56:23Z</published>
+    <updated>2016-03-31T06:19:55Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/879"/>
+    <title>Resolved: Issues in provisioning new databases and Private Spaces in the US and Virginia region</title>
+    <content type="html">&lt;p&gt;This issue is resolved.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/878</id>
+    <published>2016-03-30T19:26:11Z</published>
+    <updated>2016-03-30T21:56:54Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/878"/>
+    <title>Resolved: Issue in provisioning Private Spaces</title>
+    <content type="html">&lt;p&gt;This issue is resolved.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/877</id>
+    <published>2016-03-29T01:00:51Z</published>
+    <updated>2016-04-04T15:27:57Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/877"/>
+    <title>Resolved: Platform management service update on Monday, April 4th from 8:00am to 8:30am PDT (April 4th 15:00-15:30 UTC)</title>
+    <content type="html">&lt;p&gt;This service update has completed successfully.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/876</id>
+    <published>2016-03-24T22:46:42Z</published>
+    <updated>2016-03-24T23:01:18Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/876"/>
+    <title>Resolved: Issues on API availability</title>
+    <content type="html">&lt;p&gt;This incident is now resolved.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/875</id>
+    <published>2016-03-22T22:24:16Z</published>
+    <updated>2016-03-24T18:01:05Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/875"/>
+    <title>Resolved: Urgent logging service update scheduled on Mar 24, 2016 at 17:30 UTC</title>
+    <content type="html">&lt;p&gt;This service update is now complete. All logging functionality has returned to normal.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/874</id>
+    <published>2016-03-22T15:49:14Z</published>
+    <updated>2016-03-29T13:06:50Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/874"/>
+    <title>Resolved: Recurrence of increased latency and errors in EU region</title>
+    <content type="html">&lt;p&gt;On March 22nd between 13:51 UTC and 14:32 UTC, and once again between 15:41 UTC and 16:12 UTC, customers in the EU region on the Common Runtime may have experienced higher latencies and some failing HTTP requests, both for incoming and outgoing traffic. We accept full responsibility for any downtime arising from this issue and apologize for negative effects our customers experienced.&lt;/p&gt;
+
+&lt;p&gt;Here is some additional detail about what happened and steps we are taking to mitigate future outages of a similar nature.&lt;/p&gt;
+
+&lt;h2&gt;Who was affected?&lt;/h2&gt;
+
+&lt;p&gt;Over the course of the two incidents, some apps running in the EU region had one or more dynos impacted. These dynos would have seen traffic degradation for parts or the entirety of the event.&lt;/p&gt;
+
+&lt;h2&gt;What Happened?&lt;/h2&gt;
+
+&lt;p&gt;The Heroku platform was used by a few abusive applications sending floods of UDP packets to remote targets. The high number of packets flooded the network of the underlying server, impacting other dynos running on the same underlying server and affecting their response times.&lt;/p&gt;
+
+&lt;p&gt;Our monitoring applications were also impaired, making the events look like network instability or more general network issues, slowing our ability to identify the problem in a timely manner.&lt;/p&gt;
+
+&lt;h2&gt;What did we do to prevent wider impact?&lt;/h2&gt;
+
+&lt;p&gt;Once identified, the abusive applications were removed from the platform by our security team.&lt;/p&gt;
+
+&lt;h2&gt;What will we do to mitigate problems like this in the future?&lt;/h2&gt;
+
+&lt;p&gt;We are going to increase the sensitivity of network monitoring tools to shorten the time it takes to detect such events when they take place and will provide better documentation for our first line responders in order to identify and take action against this kind of platform abuse more rapidly.&lt;/p&gt;
+
+&lt;p&gt;The ongoing work of our abuse detection team will also help thwart other similar attempts before they have any impact on the platform.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/873</id>
+    <published>2016-03-22T13:55:14Z</published>
+    <updated>2016-03-22T14:53:44Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/873"/>
+    <title>Resolved: Increased latency and errors in EU region</title>
+    <content type="html">&lt;p&gt;This incident is now resolved&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:status.heroku.com,2005:Incident/872</id>
+    <published>2016-03-21T14:21:37Z</published>
+    <updated>2016-03-21T14:52:34Z</updated>
+    <link rel="alternate" type="text/html" href="https://status.heroku.com/incidents/872"/>
+    <title>Resolved: Issues with application builds</title>
+    <content type="html">&lt;p&gt;Emergency maintenance has finished and the issue is now resolved.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
