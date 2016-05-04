@@ -13,12 +13,9 @@ matrix:
 install:
   - go get -t
 
-before_deploy:
-  - go get github.com/mitchellh/gox
-  - mkdir -p release/
-  - cd release/
-  - gox -os "darwin linux windows" ../...
-  - for f in `ls`; do mv $f lastpost; tar -zcvf $f.tar.gz lastpost; rm lastpost; done
+script:
+  - make
+  - make release
 
 deploy:
   provider: releases
