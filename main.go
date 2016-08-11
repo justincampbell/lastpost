@@ -14,7 +14,7 @@ import (
 	"github.com/justincampbell/timeago"
 )
 
-const usage = `lastpost v1.0.0 - github.com/justincampbell/lastpost
+const usage = `lastpost v1.0.1 - github.com/justincampbell/lastpost
 usage: lastpost URL`
 
 func main() {
