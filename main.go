@@ -85,7 +85,7 @@ func formatContent(c string) string {
 		[]string{"</\\w+(?:.*)>", "\n"},
 		[]string{"<\\w+(?:.*)>", ""},
 		[]string{"\n+", "\n"},
-		[]string{"\\s\\s+", ""},
+		[]string{"\\s\\s+", " "},
 		[]string{"^\n*", ""},
 		[]string{"\n*$", "\n"},
 	} {
