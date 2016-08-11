@@ -6,6 +6,7 @@ import (
 	"testing"
 
 	rss "github.com/jteeuwen/go-pkg-rss"
+	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
 
@@ -37,7 +38,7 @@ func Test_formatContent(t *testing.T) {
 		item := items[0]
 		c, err := extractContent(item)
 		require.NoError(t, err)
-		require.Equal(t, expected, formatContent(c))
+		assert.Equal(t, expected, formatContent(c), fixture)
 	}
 }
 
