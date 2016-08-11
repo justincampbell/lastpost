@@ -82,13 +82,14 @@ func formatContent(c string) string {
 		[]string{"&#8230;", "..."},
 		[]string{"&#8211;", "-"},
 		[]string{"&#215;", "×"},
+		[]string{"<br(?:\\s/)>", "\n"},
 		[]string{"</\\w+.*?>", "\n"},
 		[]string{"<\\w+.*?>", ""},
 		[]string{"\n+", "\n"},
-		[]string{"\\s\\s+", " "},
+		[]string{"(\\s^\n)+", " "},
 		[]string{"^\n*", ""},
 		[]string{"\n*$", "\n"},
-		[]string{"\\s+\n", "\n"},
+		[]string{"\\s*\n\\s*", "\n"},
 	} {
 		re, replacement := pair[0], pair[1]
 		c = regexp.MustCompile(re).ReplaceAllString(c, replacement)

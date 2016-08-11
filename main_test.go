@@ -14,6 +14,7 @@ var items []*rss.Item
 var fixtures = []string{
 	"aws-ec2-us-east-1",
 	"crossfitwc",
+	"crossfitwc2",
 	"github-status",
 	"heroku-status",
 	"weather.gov-KPHL",
