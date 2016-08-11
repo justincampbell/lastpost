@@ -88,6 +88,7 @@ func formatContent(c string) string {
 		[]string{"\\s\\s+", " "},
 		[]string{"^\n*", ""},
 		[]string{"\n*$", "\n"},
+		[]string{"\\s+\n", "\n"},
 	} {
 		re, replacement := pair[0], pair[1]
 		c = regexp.MustCompile(re).ReplaceAllString(c, replacement)
